@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>RegisterForm</title>
+</head>
+<body>
+    <div id="Main">
+        <header>
+            <div class="Nav">
+                <a href="../QUIZ HCI/HomePage.html" class="Nav1">Stone Lawn Services</a>
+                <a href="../QUIZ HCI/RegisterForm.html" class="Nav2">Register</a>
+                <a href="../QUIZ HCI/HomePage.html" class="Nav2">Home</a>
+            </div>
+        </header>
+        <div class="Row">
+            <div class="Column">
+                <div class="Form">
+                    <h1>REGISTER HERE</h1>
+                    <h3>Fill This Form correctly!</h3><hr>
+                    <label for="Username" class="SubForm">Username</label>
+                    <input type="text" placeholder="Enter Your Username Here" name="Username" required>
+                    <br>
+                    <label for="Email" class="SubForm">Email</label>
+                    <input type="text" placeholder="Enter Your Email Here" name="Email" required>
+                    <br>
+                    <label for="Password" class="SubForm">Password</label>
+                    <input type="password" placeholder="Enter Your Password Here" name="Password" required >
+                    <br>
+                    <label for="ConfirmPassword" class="SubForm">Confirm Password</label>
+                    <input type="password" placeholder="Please Confirm Your Password" name="ConfirmPassword" required>
+                    <br>
+                    <label for="DOB" class="SubForm">Date of Birth</label>
+                    <input type="date" name="DOB" required>
+                    <br><br>
+                    <label for="Region" class="SubForm">Residency Region</label>
+                    <select name="Region">
+                        <option value="Jakarta Utara">Jakarta Utara</option>
+                        <option value="Jakarta Barat">Jakarta Barat</option>
+                        <option value="Jakarta Pusat">Jakarta Pusat</option>
+                        <option value="Jakarta Selatan">Jakarta Selatan</option>
+                        <option value="Jakarta Timur">Jakarta Timur</option>
+                        <option value="Kepulauan Seribu">Kepulauan Seribu</option>
+                    </select>
+                    <br>
+                    <label for="Address" class="SubForm">Address</label>
+                    <input type="text" placeholder="Enter Full Your Address Here" name="Address" required>
+                    <br>
+                    <label for="Gender" class="SubForm">Gender</label>
+                    <input type="radio" name="Gender" value="Male">
+                    <label for="male" class="subGender">Male</label>
+                    <input type="radio" name="Gender" value="Female">
+                    <label for="female" class="subGender">Female</label>
+                    <br><br><br>
+                    <label for="t&s" name="t&p" class="Terms">By creating an account, you agree to our Terms & Services</label>
+                    <input type="checkbox" name="t&s" value="t&s" required>
+                    <br><br>
+                    <a href="../QUIZ HCI/HomePage.html"><input type="submit" value="Submit" onclick="alert('Hooraay!!! Your account has been succesfully registered !')"></a>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div class="Column">
+                    <div class="Background">
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <div class="Nav">
+                <a href="https://www.instagram.com/" class="IG"><img src="../QUIZ HCI/Assets/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/explore" class="TWT"><img src="../QUIZ HCI/Assets/twitter.png" alt="twitter"></a> 
+                <p class="Rights">Powered by Bluejack 19-2</p>                       
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

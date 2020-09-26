@@ -1,0 +1,187 @@
+#Main{
+    width: 1280px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Nav{
+    position: sticky;
+    background-color:#0c2933;
+    overflow: hidden;
+    text-align: center;
+}
+.Nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 24pt;
+}
+.Nav1{
+    float: left;
+}
+.Nav1:hover{
+    background-color: black;
+}
+.Nav2{
+    float: right;
+}
+.Nav2:hover{
+    background-color: black;
+}
+.Content{
+    text-align: center;
+}
+.Picture1{
+    display: block;
+    background-image: url(Assets/image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 300dpi;
+    width: 100%;
+    height: 280px;
+    box-sizing: content-box;
+}
+.Picture1:hover{
+    background-image: url(Assets/image-3.jpg);
+    background-position: 0 -430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 300dpi;
+}
+p.Title{
+    font-size: 48pt;
+    color: #5a2f2f;
+}
+p.Paragraph{
+    font-size: 16pt;
+    letter-spacing: -0.5px;
+}
+.Title2{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36pt;
+    color: #5a2f2f;
+    box-sizing: border-box;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    padding: 15px;
+}
+.Picture2{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-image: url(Assets/image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Picture2:hover{
+    background-image: url(Assets/image-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -180px;
+}
+.Row::after{
+    display: table;
+    clear: both;
+    content: "";    
+    overflow: hidden;
+}
+.Column{
+    float: left;
+    width: 50%;
+}
+.Picture3 img{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+.Picture3 img:hover{
+    transform: scale(1.3)
+}
+.Picture4 img{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+.Picture4 img:hover{
+    transform: scale(1.3);
+}
+.IG img{
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+.TWT img{
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+p.Rights{
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+.Background{
+    background-image: url(Assets/image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -425px 0;
+    image-resolution: 300dpi;
+    height: 925.59px;
+    padding: 5px;
+}
+.Form{
+    text-align: center;
+    color: #0c2933;
+    background-color:chocolate;
+    padding: 5px;
+}
+.SubForm{
+    display:table;
+    font-size: 24pt;
+}
+.subGender{
+    display: table;
+    font-size: 17pt;
+}
+.Terms{
+    font-size: 14pt;
+}
+.Form input[type=text],select{
+    width: 100%;
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+.Form input[type=password]{
+    width: 100%;
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+.Form input[type=date]{
+    margin-left: -456px;
+    width: 27%;
+    display: inline-block;
+    border: solid 1px black;
+    padding: 5px 0;
+}
+.Form input[type=radio]{
+    float: left;
+    height: 18px;
+    width: 18px;
+}
+.Form input[type=submit]{
+    height: 75%;
+    width: 10%;
+    padding: 3px;
+}
